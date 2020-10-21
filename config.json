@@ -5,25 +5,25 @@
   "logo": {
     "file": "",
     "link": "",
-    "text": "LMNNNN"
+    "text": "lmnnnn"
   },
   "text": {
-    "more": "",
-    "intro": "",
-    "title": "Insta Music Networks"
+    "more": "Related Artists from Spotify",
+    "intro": "Related Artists",
+    "title": "Spotirelated"
   },
   "legend": {
-    "edgeLabel": "Link",
-    "colorLabel": "Modularity CLass",
-    "nodeLabel": "Musicians"
+    "edgeLabel": "Related",
+    "colorLabel": "Modularity Class",
+    "nodeLabel": "Artist"
   },
   "features": {
     "search": true,
     "groupSelectorAttribute": "Modularity Class",
-    "hoverBehavior": "dim"
+    "hoverBehavior": "default"
   },
   "informationPanel": {
-    "groupByEdgeDirection": false,
+    "groupByEdgeDirection": true,
     "imageAttribute": false
   },
   "sigma": {
