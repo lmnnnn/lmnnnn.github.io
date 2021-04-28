@@ -8,7 +8,7 @@
     "text": "lmnnnn"
   },
   "text": {
-    "more": "Related Artists from Spotify",
+    "more": "",
     "intro": "Related Artists",
     "title": "Spotirelated"
   },
@@ -19,7 +19,7 @@
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "Modularity Class",
+    "groupSelectorAttribute": false,
     "hoverBehavior": "default"
   },
   "informationPanel": {
