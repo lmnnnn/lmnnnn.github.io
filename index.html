@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image en plein écran avec liens Spotify, Instagram et Soundcloud</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            position: relative;
+        }
+
+        img {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+        }
+
+        .social-links {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            margin-top: 20px; /* Ajuste l'écart entre les icônes et le haut de la page */
+        }
+
+        .social-link {
+            margin-right: 10px; /* Ajoute une marge à droite pour espacer les icônes */
+        }
+
+        .social-link img {
+            width: 50px; /* Ajustez la taille de l'icône selon vos besoins */
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="social-links">
+        <a href="https://open.spotify.com/intl-fr/artist/3YrwQR7FGcFt8JmjUNncMJ?si=vrpbM1ySQtKyWGWvWxGMvw" target="_blank" class="social-link">
+            <img src="assets/img/spotify.png" alt="Spotify">
+        </a>
+
+        <a href="https://www.instagram.com/theodoreninnin/" target="_blank" class="social-link">
+            <img src="assets/img/insta.png" alt="Instagram">
+        </a>
+
+        <a href="https://soundcloud.com/teyow" target="_blank" class="social-link">
+            <img src="assets/img/sc.png" alt="Soundcloud">
+        </a>
+    </div>
+
+    <img src="assets/img/test.jpg" alt="Image en plein écran">
+</body>
+</html>
