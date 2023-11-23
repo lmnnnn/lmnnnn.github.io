@@ -1,58 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image en plein écran avec liens Spotify, Instagram et Soundcloud</title>
-    <style>
-        body {
-            margin: 0;
-            overflow: hidden;
-            position: relative;
-        }
-
-        img {
-            width: 100vw;
-            height: 100vh;
-            object-fit: cover;
-        }
-
-        .social-links {
-            position: absolute;
-            top: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            display: flex;
-            align-items: flex-start;
-            justify-content: center;
-            margin-top: 20px; /* Ajuste l'écart entre les icônes et le haut de la page */
-        }
-
-        .social-link {
-            margin-right: 10px; /* Ajoute une marge à droite pour espacer les icônes */
-        }
-
-        .social-link img {
-            width: 50px; /* Ajustez la taille de l'icône selon vos besoins */
-            height: 50px;
-        }
-    </style>
-</head>
-<body>
-    <div class="social-links">
-        <a href="https://open.spotify.com/intl-fr/artist/3YrwQR7FGcFt8JmjUNncMJ?si=vrpbM1ySQtKyWGWvWxGMvw" target="_blank" class="social-link">
-            <img src="assets/img/spotify.png" alt="Spotify">
-        </a>
-
-        <a href="https://www.instagram.com/theodoreninnin/" target="_blank" class="social-link">
-            <img src="assets/img/insta.png" alt="Instagram">
-        </a>
-
-        <a href="https://soundcloud.com/teyow" target="_blank" class="social-link">
-            <img src="assets/img/sc.png" alt="Soundcloud">
-        </a>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>THEO AZUR - Site officiel</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <!--   <h1 class="mx-auto my-0 text-uppercase">THEO AZUR</h1> -->
+                        <!--  <h2 class="text-white-50 mx-auto mt-2 mb-5"> Paris </h2> -->
+                      
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4">THEO AZUR</h2>
+                        <p class="text-white-50">
+                            THEO AZUR est un énorme crimo.
+                        </p>
+                    </div>
+                </div>
+                 <!-- <img class="img-fluid" src="assets/img/HIGHER.jpg" alt="..." /> -->
+            </div> 
+        </section>
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container px-4 px-lg-5">
+                <!-- Featured Project Row-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                   <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/HIGHER.jpg" alt="..." /></div> 
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>HIGHER</h4>
+                            <p class="text-black-50 mb-0">16122023</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- Contact-->
+<section class="contact-section bg-black" id="contact" >
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5">
+            <div class="col-md-6 mx-auto text-center">
+                <h2 class="text-white mb-5">Contact</h2>
+                <!-- Formspree Contact Form-->
+                <form action="https://formspree.io/f/mrgwwzkg" method="POST">
+                    <!-- Email address input-->
+                    <div class="mb-3">
+                        <label for="email" class="form-label text-white">Your email:</label>
+                        <input type="email" class="form-control" name="email" id="email" required>
+                    </div>
+                    <!-- Message input-->
+                    <div class="mb-3">
+                        <label for="message" class="form-label text-white">Your message:</label>
+                        <textarea class="form-control" name="message" id="message" rows="4" required></textarea>
+                    </div>
+                    <!-- Submit button-->
+                    <button class="btn btn-primary" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
     </div>
-
-    <img src="assets/img/test.jpg" alt="Image en plein écran">
-</body>
+</section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5"></div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-laHIGHER.js"></script>
+    </body>
 </html>
