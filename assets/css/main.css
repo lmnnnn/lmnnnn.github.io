@@ -226,7 +226,8 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
+		background: url("images/bg.jpg") bottom left;
+		background-size: cover;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -300,7 +301,7 @@ input, select, textarea {
 	}
 
 	#bg {
-		background-size: 2250px auto;
+		background-size: 2250px;
 		width: 6750px;
 	}
 
@@ -803,10 +804,10 @@ input, select, textarea {
 			}
 		}
 
-		#bg {
-			background-size: 1500px auto;
-			width: 4500px;
-		} }
+	#bg {
+		background-size: 2250px;
+		width: 6750px;
+	}
 
 /* Normal */
 
@@ -885,10 +886,10 @@ input, select, textarea {
 			}
 		}
 
-		#bg {
-			background-size: 750px auto;
-			width: 2250px;
-		} }
+	#bg {
+		background-size: 1500px;
+		width: 6750px;
+	}
 
 /* Mobile */
 
@@ -971,10 +972,10 @@ input, select, textarea {
 			}
 		}
 
-		#bg {
-			background-size: 300px auto;
-			width: 900px;
-		}
+	#bg {
+		background-size: 1500px;
+		width: 6750px;
+	}
 
 	/* Header */
 
@@ -1069,11 +1070,10 @@ input, select, textarea {
 			}
 		}
 
-		#bg {
-			background-size: 412.5px auto;
-			width: 1237.5px;
-		}
-
+	#bg {
+		background-size: 1000px;
+		width: 6750px;
+	}
 	/* Header */
 
 		#header nav {
